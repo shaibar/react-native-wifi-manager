@@ -20,7 +20,7 @@ public class WifiManager implements ReactPackage {
     modules.add(new WifiManagerModule(reactContext));
     return modules;
   }
-  @Override
+  // RN 47 deprecated
   public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
   }
